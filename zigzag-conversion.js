@@ -11,7 +11,7 @@
 
 // string convert(string s, int numRows);
 
-var convert = function(s, numRows) {
+let convert = function(s, numRows) {
     if (numRows === 1 || numRows >= s.length) {
       return s;
     }
@@ -34,3 +34,4 @@ var convert = function(s, numRows) {
     const convertedString = rows.join("");
     return convertedString;
   };
+console.log(convert("PAHNAPLSIIGYIR"));
